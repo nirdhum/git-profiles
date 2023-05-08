@@ -1,5 +1,5 @@
 #Git Profiles
 
-Fetch Profile of searched user from github using github API and dispaly that info on the sccreen.
+Fetch profile of searched user from GitHub using GitHub API and display that info on the DOM.
 
 -By Nirdhum
