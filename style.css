@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #19376D;
-    color: aliceblue;
+    background-color: #181725;
+    color: #ECF2FF;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,13 @@ body {
     margin: 0;
 }
 
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+}
+
 .user-form {
     width: 100%;
     max-width: 700px;
@@ -25,10 +32,10 @@ body {
 .user-form input {
     width: 100%;
     display: block;
-    background-color: #4E31AA;
+    background-color: #472183;
     border: none;
     border-radius: 10px;
-    color: #fff;
+    color: #ECF2FF;
     padding: 1rem;
     margin-bottom: 2rem;
     font-family: inherit;
@@ -47,7 +54,7 @@ body {
 
 .card {
     max-width: 800px;
-    background-color: #4E31AA;
+    background-color: #472183;
     border-radius: 20px;
     padding: 3rem;
     margin: 0 2rem;
@@ -57,18 +64,23 @@ body {
 
 .avatar {
     border-radius: 50%;
-    border: 10px solid #19376D;
+    border: 8px solid #181725;
     height: 150px;
     width: 150px;
 }
 
 .user-info {
-    color: #eee;
+    color: #ECF2FF;
     margin-left: 2rem;
 }
 
 .user-info h2 {
     margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.user-info p {
+    letter-spacing: 1px;
 }
 
 .user-info ul {
@@ -87,13 +99,14 @@ body {
 .user-info ul li strong {
     font-size: 0.9rem;
     margin-left: 0.5rem;
+    letter-spacing: 1px;
 }
 
 .repo {
     text-decoration: none;
-    color: white;
-    background-color: #19376D;
-    font-size: 0.8rem;
+    color: #ECF2FF;
+    background-color: #181725;
+    font-size: 0.9rem;
     padding: 0.3rem 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -102,6 +115,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
 
     .card {
         flex-direction: column;
