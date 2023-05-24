@@ -22,7 +22,6 @@ body {
     height: 150px;
     margin-bottom: 2rem;
     border-radius: 50%;
-    border: 5px solid #ECF2FF;
 }
 
 .user-form {
@@ -34,14 +33,14 @@ body {
     width: 100%;
     display: block;
     background-color: #472183;
-    border: 2px solid #ECF2FF;
+    border: 1px solid #472183;
     border-radius: 10px;
     color: #ECF2FF;
     padding: 1rem;
     margin-bottom: 2rem;
     font-family: inherit;
     font-size: 1rem;
-    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(164, 179, 236, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 .user-form input::placeholder {
@@ -91,6 +90,7 @@ body {
     justify-content: space-between;
     padding: 0;
     max-width: 400px;
+    margin-bottom: 1.5rem;
 }
 
 .user-info ul li {
