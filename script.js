@@ -46,7 +46,7 @@ function userCard(user) {
 
 async function getRepositories(username) {
     try {
-        const { data } = await axios(APIURL + username + '/repos')
+        const { data } = await axios(APIURL + username + '/repos?sort=created')
         addRepositories(data)
     } catch (error) {
         // errorCard('Problem fetching Repositories. Please try again after some time.')
@@ -65,7 +65,7 @@ function errorCard(message) {
 function addRepositories(repos) {
     const reposElement = document.getElementById('repos')
 
-    repos.forEach(repo => {
+    repos.slice(0, 10).forEach(repo => {
         const repoElement = document.createElement('a')
         repoElement.classList.add('repo')
         repoElement.href = repo.html_url
