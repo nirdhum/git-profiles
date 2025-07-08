@@ -51,7 +51,7 @@ To run this project locally:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/nirdhum/git-profiles.git
-   cd github-profile-finder
+   cd git-profiles
    ```
 2. **Open index.html in your browser Or use Live Server in VS Code or any similar extension.**
 
